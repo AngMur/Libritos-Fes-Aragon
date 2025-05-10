@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Libros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Libros</h1>
+    </header>
+    
+    <div class="controls-container">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Buscar libros por título, autor, editorial...">
+        </div>
+        <button class="sort-btn" id="sort-btn">Ordenar por Semestre</button>
+        <div class="format-options">
+            <button class="format-btn apa" id="show-apa-btn">Mostrar APA</button>
+            <button class="format-btn ieee" id="show-ieee-btn">Mostrar IEEE</button>
+        </div>
+    </div>
+    
+    <div class="books-container" id="books-container">
+        <!-- Libros serán agregados dinámicamente -->
+    </div>
+
+    <div class="references-modal" id="references-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modal-title">Referencias Bibliográficas</h2>
+                <button class="close-modal" id="close-modal">&times;</button>
+            </div>
+            <div id="references-content">
+                <!-- Referencias serán agregadas dinámicamente -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
