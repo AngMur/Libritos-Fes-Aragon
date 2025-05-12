@@ -1,5 +1,7 @@
 # 📚 LIBRITOS FES ARAGÓN 📚
 
+![Screen shoot of our running app](./App/app_test.png)
+
 Este es un proyecto básico en Node.js que se conecta a una base de datos MySQL dentro del hosting Infinity Free y expone una API simple usando Express.
 
 ---
