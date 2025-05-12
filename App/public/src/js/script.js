@@ -1,72 +1,76 @@
-// Datos de ejemplo de libros
-const books = [
-    {
-        id: 1,
-        title: "Introducción a la Programación",
-        author: "Juan Pérez García",
-        edition: "3ra Edición",
-        editorial: "TechBooks",
-        country: "México",
-        year: "2020",
-        semester: 3,
-        subjects: ["Programación", "Informática"]
-    },
-    {
-        id: 2,
-        title: "Bases de Datos Modernas",
-        author: "María López Fernández",
-        edition: "1ra Edición",
-        editorial: "DataPress",
-        country: "España",
-        year: "2019",
-        semester: 4,
-        subjects: ["Bases de Datos", "Informática"]
-    },
-    {
-        id: 3,
-        title: "Fundamentos de Contabilidad",
-        author: "Roberto Sánchez Martínez",
-        edition: "5ta Edición",
-        editorial: "FinanzasEd",
-        country: "Argentina",
-        year: "2021",
-        semester: 2,
-        subjects: ["Contabilidad", "Finanzas"]
-    },
-    {
-        id: 4,
-        title: "Algoritmos Avanzados",
-        author: "Carlos Jiménez Ruiz",
-        edition: "2da Edición",
-        editorial: "AlgoPress",
-        country: "Colombia",
-        year: "2022",
-        semester: 5,
-        subjects: ["Algoritmos", "Programación"]
-    },
-    {
-        id: 5,
-        title: "Redes de Computadoras",
-        author: "Ana Torres Méndez",
-        edition: "4ta Edición",
-        editorial: "NetBooks",
-        country: "México",
-        year: "2018",
-        semester: 6,
-        subjects: ["Redes", "Informática"]
-    },
-    {
-        id: 6,
-        title: "Diseño de Interfaces",
-        author: "Luisa García Domínguez",
-        edition: "1ra Edición",
-        editorial: "UXPublications",
-        country: "España",
-        year: "2023",
-        semester: 1,
-        subjects: ["Diseño", "Interfaces"]
-    }
-];
+
+
+// // Datos de ejemplo de libros
+// console.log(books);
+
+// const books = [
+//     {
+//         id: 1,
+//         title: "Introducción a la Programación",
+//         author: "Juan Pérez García",
+//         edition: "3ra Edición",
+//         editorial: "TechBooks",
+//         country: "México",
+//         year: "2020",
+//         semester: 3,
+//         subjects: ["Programación", "Informática"]
+//     },
+//     {
+//         id: 2,
+//         title: "Bases de Datos Modernas",
+//         author: "María López Fernández",
+//         edition: "1ra Edición",
+//         editorial: "DataPress",
+//         country: "España",
+//         year: "2019",
+//         semester: 4,
+//         subjects: ["Bases de Datos", "Informática"]
+//     },
+//     {
+//         id: 3,
+//         title: "Fundamentos de Contabilidad",
+//         author: "Roberto Sánchez Martínez",
+//         edition: "5ta Edición",
+//         editorial: "FinanzasEd",
+//         country: "Argentina",
+//         year: "2021",
+//         semester: 2,
+//         subjects: ["Contabilidad", "Finanzas"]
+//     },
+//     {
+//         id: 4,
+//         title: "Algoritmos Avanzados",
+//         author: "Carlos Jiménez Ruiz",
+//         edition: "2da Edición",
+//         editorial: "AlgoPress",
+//         country: "Colombia",
+//         year: "2022",
+//         semester: 5,
+//         subjects: ["Algoritmos", "Programación"]
+//     },
+//     {
+//         id: 5,
+//         title: "Redes de Computadoras",
+//         author: "Ana Torres Méndez",
+//         edition: "4ta Edición",
+//         editorial: "NetBooks",
+//         country: "México",
+//         year: "2018",
+//         semester: 6,
+//         subjects: ["Redes", "Informática"]
+//     },
+//     {
+//         id: 6,
+//         title: "Diseño de Interfaces",
+//         author: "Luisa García Domínguez",
+//         edition: "1ra Edición",
+//         editorial: "UXPublications",
+//         country: "España",
+//         year: "2023",
+//         semester: 1,
+//         subjects: ["Diseño", "Interfaces"]
+//     }
+// ];
 
 let currentSortOrder = 'asc'; // 'asc' o 'desc'
 
